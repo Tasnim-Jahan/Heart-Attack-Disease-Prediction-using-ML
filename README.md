@@ -24,3 +24,23 @@ The project uses the following Python libraries:
 To install the dependencies, run:
 ```bash
 pip install pandas numpy matplotlib scikit-learn
+
+## How to Run
+
+### Clone the repository:
+```bash
+git clone https://github.com/your_username/heart-attack-prediction.git
+cd heart-attack-prediction
+
+```bash
+python heart_attack_prediction.py
+
+#### Results
+The Random Forest Classifier achieved the highest accuracy (90.57%) among all the models, making it the best-performing model for this dataset.
+
+#### Future Work
+Tune hyperparameters for better model performance.
+Explore additional features and handle missing values more effectively.
+Implement additional machine learning algorithms.
+#### License
+This project is licensed under the MIT License. See the LICENSE file for more details.
